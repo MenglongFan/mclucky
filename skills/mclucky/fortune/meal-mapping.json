@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "comment": "签级 → 麦门点餐策略映射。food_keywords 用于在 query-meals 返回的菜单中做选品匹配，按优先级从上到下。",
+  "comment": "签级 → 麦门点餐策略映射。food_keywords 用于在 query-meals 返回的菜单中做选品匹配，按优先级从上到下。领取层全签级自动（auto-bind-coupons 一键全领，幂等）；本文件的 coupon_policy 只管用券层。",
   "tiers": {
     "上上": {
       "mood": "大吉大利，今日宜庆贺",

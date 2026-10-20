@@ -4,9 +4,9 @@
 > 上上签巨无霸庆祝，下签自动领券安抚 —— **天意即美味。**
 
 <p align="center">
-  <img src="demo/images/card-001-shangshang.png" width="42%" alt="上上签示例：王母祝寿 × 巨无霸三件套">
+  <img src="demo/images/card-001-shangshang.png?v=2" width="42%" alt="上上签示例：王母祝寿 × 巨无霸三件套">
   &nbsp;&nbsp;
-  <img src="demo/images/card-018-zhongping.png" width="42%" alt="中平签示例：孔明借东风 × 轻食组合">
+  <img src="demo/images/card-018-zhongping.png?v=2" width="42%" alt="中平签示例：孔明借东风 × 轻食组合">
 </p>
 
 <p align="center"><i>左：第 1 签「王母祝寿」（上上大吉 → 巨无霸庆祝餐）· 右：第 18 签「孔明借东风」（中平 → 轻食养身）</i></p>

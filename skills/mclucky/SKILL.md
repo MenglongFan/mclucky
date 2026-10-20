@@ -39,9 +39,9 @@ description: 麦运灵签 —— 抽一支吕祖灵签决定今天吃什么。�
 1. 先 `now-time-info` 拿当前日期
 2. 询问用户就餐方式与位置：到店取餐（`query-nearby-stores`）/ 外送（`delivery-query-stores`，无地址则 `delivery-create-address`）
 3. 选定门店后 `query-meals` 拉菜单
-4. **领取层（全签级自动）**：调用 `auto-bind-coupons` 一键领取全部可领优惠券（幂等，已领的自动跳过；领完报「已为你领取 N 张券」）。领取是自动的，**用不用由签级策略决定**：
-   - 上上：只领不用——「券已入兜，但好日子值得原价」
-   - 上吉 / 中吉 / 中平 / 下下：按映射文件 `coupon_policy` 挑券参与计价
+4. **领取层（全签级自动）**：调用 `auto-bind-coupons` 一键领取全部可领优惠券（幂等，已领的自动跳过；领完报「已为你领取 N 张券」）。**用券层按签级**：
+   - 上上 / 上吉：从券中挑优惠金额最大的一张参与计价——签越好优惠越大
+   - 中吉 / 中平 / 下下：按映射文件 `coupon_policy` 挑券参与计价
 5. 用 `food_keywords` 在菜单中匹配选品，`query-meal-detail` 确认套餐组成，套餐内替换项问用户
 6. `calculate-price` 出含券总价
 

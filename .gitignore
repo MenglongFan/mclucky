@@ -1,0 +1,11 @@
+# 凭证与本地配置绝不入库
+.env
+*.local
+**/mcp.json
+
+# 开发过程产物
+.scratch/
+.DS_Store
+
+# WorkBuddy 开发上下文（参赛时按需放回）
+# workbuddy.md
